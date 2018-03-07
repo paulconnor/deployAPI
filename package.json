@@ -1,15 +1,26 @@
 {
   "name": "apim-migrate",
   "version": "1.0.0",
-  "description": "",
-  "main": "deploy.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.14.1",
     "http": "0.0.0",
+    "https": "^1.0.0",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulconnor/deployAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulconnor/deployAPI/issues"
+  },
+  "homepage": "https://github.com/paulconnor/deployAPI#readme",
+  "description": "Help to automate API deployments"
 }
